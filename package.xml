@@ -5,7 +5,9 @@
   <description>simple ros pub-sub package</description>
 
   <maintainer email="flex@todo.todo">flex</maintainer>
-
+  
+  <license>TODO</license>
+  
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>rospy</build_depend>
   <build_depend>std_msgs</build_depend>
