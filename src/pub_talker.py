@@ -10,9 +10,9 @@ if __name__ == '__main__':
     try:
         while not rospy.is_shutdown():
             time_tuple = time.localtime()
-            time_string = time.strftime("%H:%M:%S", time_tuple)
+            time_string = time.strftime('%H:%M:%S', time_tuple)
             
-            message = '\nFataliev D.A. %s\nShudrova E.A. %s\nPetrova S.V. %s' %(time_string, time_string, time_string)
+            message = 'Hello World! Time: %s' %(time_string)
             rospy.loginfo(message)
             pub.publish(message)
             
