@@ -1,0 +1,6 @@
+<launch>
+    <!-- Server node -->
+    <node pkg="temp_package"    type="srv_server"   name="srv_server"/>
+    <!-- Client node -->
+    <node pkg="temp_package"    type="srv_client"   name="srv_client"/>
+</launch>

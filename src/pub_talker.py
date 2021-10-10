@@ -5,7 +5,7 @@ import time
 if __name__ == '__main__':
     rospy.init_node('pub_talker', anonymous = True)
     pub = rospy.Publisher('chatter', String, queue_size = 10)
-    rate = rospy.Rate(1)
+    rate = rospy.Rate(10)
         
     try:
         while not rospy.is_shutdown():

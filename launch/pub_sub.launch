@@ -1,0 +1,6 @@
+<launch>     
+    <!-- Publisher node -->
+    <node pkg="temp_package"    type="pub_talker.py"      name="pub_talker"/>
+    <!-- Subscriber node -->
+    <node pkg="temp_package"    type="sub_listener.py"    name="sub_listener"/>
+</launch>
